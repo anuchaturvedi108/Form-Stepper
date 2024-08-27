@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.stepper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-border {
+  border-top: solid 2px lightblue;
+  width: 100%;
+  height: 1px;
+}
+
+.active-step {
+  border: solid 2px blue;
+}
+
+.prev-step-border {
+  border-color: blue;
+}
